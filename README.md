@@ -1,19 +1,19 @@
 # Python Network Troubleshooting Tool
 
-## 📌 Project Overview
+##  Project Overview
 
 The Python Network Troubleshooting Tool is a beginner-friendly networking project developed using Python. It helps users perform basic network checks and understand common connectivity and DNS resolution results.
 
 This project is designed to practise Python programming, networking fundamentals, and basic network troubleshooting.
 
-## 🎯 Objectives
+##  Objectives
 
 - Check network connectivity using the ping command.
 - Resolve domain names into IPv4 addresses using DNS.
 - Understand basic network troubleshooting techniques.
 - Practise Python modules, variables, conditions, and exception handling.
 
-## ✨ Features
+##  Features
 
 ### 1. Ping Connectivity Checker
 - Accepts an IP address or hostname.
@@ -27,7 +27,7 @@ This project is designed to practise Python programming, networking fundamentals
 - Displays the resolved address when successful.
 - Handles DNS resolution errors.
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Python 3
 - Python `subprocess` module
@@ -35,7 +35,7 @@ This project is designed to practise Python programming, networking fundamentals
 - Windows Command Prompt / PowerShell
 - Visual Studio Code
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 Python-Network-Troubleshooter/
@@ -44,13 +44,13 @@ Python-Network-Troubleshooter/
 └── README.md
 ```
 
-## ⚙️ Requirements
+##  Requirements
 
 - Python 3 installed on your computer.
 - Windows operating system for the current ping implementation.
 - Visual Studio Code or another Python editor (optional).
 
-## 🚀 How to Run
+##  How to Run
 
 ### Step 1: Clone the Repository
 
@@ -93,7 +93,7 @@ Example failure test:
 this-domain-should-not-exist-123456.invalid
 ```
 
-## 🧪 Testing
+##  Testing
 
 The project includes basic tests for:
 
@@ -104,7 +104,7 @@ The project includes basic tests for:
 
 Actual results may vary depending on network connectivity, DNS settings, and firewall rules. A failed ping does not always mean that a host is offline.
 
-## 📚 Learning Outcomes
+##  Learning Outcomes
 
 Through this project, I am learning:
 
@@ -114,7 +114,7 @@ Through this project, I am learning:
 - Basic network troubleshooting and testing.
 - Managing a programming project using GitHub.
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - Add a TCP port connectivity checker.
 - Create a menu-driven interface.
@@ -122,10 +122,10 @@ Through this project, I am learning:
 - Add timestamps and clearer error messages.
 - Improve input validation and testing.
 
-## 👩‍💻 Author
+##  Author
 
 Created as a beginner networking and Python learning project.
 
-## 📄 License
+##  License
 
 This project is intended for educational and portfolio purposes.
