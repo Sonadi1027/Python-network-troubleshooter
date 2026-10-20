@@ -27,6 +27,14 @@ This project is designed to practise Python programming, networking fundamentals
 - Displays the resolved address when successful.
 - Handles DNS resolution errors.
 
+### 3. TCP Port Checker
+
+- Accepts a hostname or IPv4 address.
+- Checks TCP connectivity to a specified port.
+- Reports whether a connection succeeds or fails.
+- Handles invalid port numbers and hostname resolution errors.
+- Uses a five-second connection timeout.
+
 ##  Technologies Used
 
 - Python 3
@@ -37,12 +45,11 @@ This project is designed to practise Python programming, networking fundamentals
 
 ##  Project Structure
 
-```text
 Python-Network-Troubleshooter/
 ├── ping_tool.py
 ├── dns_checker.py
+├── port_checker.py
 └── README.md
-```
 
 ##  Requirements
 
@@ -54,9 +61,9 @@ Python-Network-Troubleshooter/
 
 ### Step 1: Clone the Repository
 
-```bash
+
 git clone https://github.com/Sonadi1027/Python-network-troubleshooter.git
-```
+
 
 ### Step 2: Open the Project Folder
 
@@ -64,9 +71,7 @@ Open the downloaded project folder in Visual Studio Code.
 
 ### Step 3: Run the Ping Connectivity Checker
 
-```bash
 python ping_tool.py
-```
 
 Enter an IP address or hostname when prompted.
 
@@ -77,21 +82,15 @@ Example test targets:
 
 ### Step 4: Run the DNS Checker
 
-```bash
 python dns_checker.py
-```
 
 Example successful lookup:
 
-```text
 google.com
-```
 
 Example failure test:
 
-```text
 this-domain-should-not-exist-123456.invalid
-```
 
 ##  Testing
 
