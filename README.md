@@ -35,6 +35,14 @@ This project is designed to practise Python programming, networking fundamentals
 - Handles invalid port numbers and hostname resolution errors.
 - Uses a five-second connection timeout.
 
+### 4. Main Menu
+
+- Runs all three network troubleshooting tools from a single menu.
+- Allows users to select tools using numbered options.
+- Handles invalid menu choices.
+- Returns to the main menu after each test.
+- Provides an exit option to close the program.
+
 ##  Technologies Used
 
 - Python 3
@@ -46,6 +54,7 @@ This project is designed to practise Python programming, networking fundamentals
 ##  Project Structure
 
 Python-Network-Troubleshooter/
+├── main.py
 ├── ping_tool.py
 ├── dns_checker.py
 ├── port_checker.py
